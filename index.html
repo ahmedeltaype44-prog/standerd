@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAVO - تصميمات هندسية - دعاية وإعلان - كورسات تعليمية</title>
+    
+    <!-- خط Cairo من Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- مكتبة الأيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- ملف الاستايل الخارجي -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- شريط الإتصال العلوي (Top Bar) -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="contact-numbers">
+                <span><i class="fa-solid fa-phone"></i> 01275973124</span>
+                <span><i class="fa-solid fa-phone"></i> 01063085855</span>
+            </div>
+            <div class="top-slogan">
+                <span><i class="fa-solid fa-star"></i> جودة عالية وإتقان في التنفيذ</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- الهيدر الرئيسي وشريط التنقل -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#home" class="brand">
+                <span class="logo-text">GRAVO</span>
+                <span class="logo-tagline">للتصميمات والخدمات الطلابية</span>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">الخدمات <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="page.html"><i class="fa-solid fa-file-lines"></i> كتابة الرسائل العلمية</a></li>
+                            <li><a href="#services"><i class="fa-solid fa-pen-nib"></i> التصميمات والتعديلات</a></li>
+                            <li><a href="#services"><i class="fa-solid fa-compass-drafting"></i> الرسومات الهندسية</a></li>
+                            <li><a href="#services"><i class="fa-solid fa-certificate"></i> تصميم الشهادات والكتب</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#courses" class="dropbtn">الكورسات <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#courses"><i class="fa-solid fa-laptop-code"></i> كورس AutoCad والرسم الهندسي</a></li>
+                            <li><a href="#courses"><i class="fa-solid fa-palette"></i> كورس الجرافيك ديزاين</a></li>
+                            <li><a href="#courses"><i class="fa-solid fa-book-open"></i> كورس تنسيق الرسائل العلمية</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact" class="nav-btn">اتصل بنا</a></li>
+                </ul>
+            </nav>
+
+            <!-- زر القائمة للهواتف -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- شريط الأخبار المتحرك -->
+    <div class="ticker-wrap">
+        <div class="ticker-title"><i class="fa-solid fa-bullhorn"></i> خدماتنا المميزة:</div>
+        <div class="ticker-container">
+            <div class="ticker-text">
+                <span>كتابة جميع المواد العلمية والأدبية بالكمبيوتر</span>
+                <span class="dot">•</span>
+                <span>تنسيق وكتابة الرسائل العلمية والأكاديمية</span>
+                <span class="dot">•</span>
+                <span>عمل التصميمات وإعلانات الجرافيك</span>
+                <span class="dot">•</span>
+                <span>التعديل على الصور والمعالجة الرقمية</span>
+                <span class="dot">•</span>
+                <span>الرسومات الهندسية وإعداد المخططات</span>
+                <span class="dot">•</span>
+                <span>طباعة الكتب والمذكرات وعمل C.V احترافي</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- قسم السلايدر الاحترافي -->
+    <section class="hero-slider" id="home">
+        <div class="slider-wrapper">
+            <div class="slide active">
+                <img src="image/برنامج-كتابة-الرسائل-العلمية-2.jpg" alt="كتابة الرسائل العلمية">
+                <div class="slide-overlay"></div>
+                <div class="slide-caption">
+                    <span class="badge">خدمة أكاديمية</span>
+                    <h2>كتابة وتنسيق الرسائل العلمية</h2>
+                    <p>إعداد الأبحاث والرسائل بأعلى درجات الدقة والالتزام بالمقاييس الأكاديمية.</p>
+                    <a href="#contact" class="btn btn-primary">اطلب الخدمة الآن</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/data-entry-and-typing-through-thumbnail-187498.jpg" alt="إدخال البيانات">
+                <div class="slide-overlay"></div>
+                <div class="slide-caption">
+                    <span class="badge">دقة وسرعة</span>
+                    <h2>إدخال البيانات والتفريغ النصي</h2>
+                    <p>تفريغ النصوص واستبدال المخطوطات والملفات بمهارات كتابة عالية السرعة.</p>
+                    <a href="#contact" class="btn btn-primary">تواصل معنا</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/pngtree-d-render-of-a-website-builder-for-a-graphic-design-studio-image_3761809.jpg" alt="التصميمات">
+                <div class="slide-overlay"></div>
+                <div class="slide-caption">
+                    <span class="badge">إبداع وتصميم</span>
+                    <h2>تصميمات جرافيك ودعاية وإعلان</h2>
+                    <p>هويات بصرية، شعارات، وبوسترات احترافية تعبر عن نشاطك تجارياً وأكاديمياً.</p>
+                    <a href="#contact" class="btn btn-primary">استكشف أعمالنا</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="image/pngtree-architectural-plans-measured-by-caliper-on-a-white-background-with-3d-image_3670462.jpg" alt="الرسومات الهندسية">
+                <div class="slide-overlay"></div>
+                <div class="slide-caption">
+                    <span class="badge">هندسة ودقة</span>
+                    <h2>المخططات والرسومات الهندسية</h2>
+                    <p>رسم وتصميم الخرائط والتفاصيل المعمارية والإنشائية برسم هندسي دقيق.</p>
+                    <a href="#courses" class="btn btn-primary">استعرض الكورسات</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- أدوات التحكم في السلايدر -->
+        <button class="slider-btn prev" id="prevSlide"><i class="fa-solid fa-chevron-right"></i></button>
+        <button class="slider-btn next" id="nextSlide"><i class="fa-solid fa-chevron-left"></i></button>
+
+        <div class="slider-dots" id="sliderDots"></div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section class="section container" id="services">
+        <div class="section-header">
+            <span class="section-subtitle">ماذا نقدم؟</span>
+            <h2 class="section-title">خدماتنا المتميزة</h2>
+            <div class="title-line"></div>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/برنامج-كتابة-الرسائل-العلمية-2.jpg" alt="كتابة المواد العلمية">
+                    <a href="image/Chrysanthemum.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>كتابة المواد العلمية والأدبية</h3>
+                    <p>صياغة وكتابة الأبحاث والكتب بالكمبيوتر بخطوط وأساليب تنسيق معتمدة.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/data-entry-and-typing-through-thumbnail-187498.jpg" alt="تنسيق الرسائل">
+                    <a href="image/data-entry-and-typing-through-thumbnail-187498.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>تنسيق الرسائل العلمية</h3>
+                    <p>ضبط الجداول، الفهارس، والمراجع وتدقيق الصفحات وفقاً لدليل الجامعات.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/pngtree-d-render-of-a-website-builder-for-a-graphic-design-studio-image_3761809.jpg" alt="التصميمات">
+                    <a href="image/pngtree-d-render-of-a-website-builder-for-a-graphic-design-studio-image_3761809.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>التصميم الدعاية والإعلان</h3>
+                    <p>إعداد جميع المطبوعات الإعلانية من بروشورات، كروت، ولافتات متناسقة.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/برنامج-تعديل-الصور-للكمبيوتر-8.jpg" alt="تعديل الصور">
+                    <a href="image/برنامج-تعديل-الصور-للكمبيوتر-8.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>التعديلات والمعالجة الرقمية</h3>
+                    <p>تحسين جودة الصور القديمة وتفريغ الخلفيات وتجهيزها للطباعة.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/pngtree-architectural-plans-measured-by-caliper-on-a-white-background-with-3d-image_3670462.jpg" alt="الرسومات الهندسية">
+                    <a href="image/pngtree-architectural-plans-measured-by-caliper-on-a-white-background-with-3d-image_3670462.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>الرسومات والمخططات الهندسية</h3>
+                    <p>رسم وتحديث المخططات الهندسية باستخدام أحدث البرامج المتخصصة.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/certificate-maker-new-1024x597.jpg" alt="تصميم الشهادات">
+                    <a href="image/certificate-maker-new-1024x597.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>تصميم وطباعة الشهادات</h3>
+                    <p>إعداد شهادات التقدير والدورات التدريبية بإطارات وتصاميم مميزة.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/كيفية_الطباعة_من_الكمبيوتر_إلى_الطابعة.jpg" alt="طباعة الكتب">
+                    <a href="image/كيفية_الطباعة_من_الكمبيوتر_إلى_الطابعة.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>طباعة الكتب والمذكرات</h3>
+                    <p>طباعة سريعة وبدقة ألوان عالية للمذكرات والكتب بجميع الأحجام.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-image">
+                    <img src="image/ما-هي-أهم-خدمات-الإنترنت؟.jpg" alt="خدمات الإنترنت">
+                    <a href="image/ما-هي-أهم-خدمات-الإنترنت؟.jpg" target="_blank" class="zoom-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+                </div>
+                <div class="card-content">
+                    <h3>السيرة الذاتية وخدمات الويب</h3>
+                    <p>صياغة CV احترافي مطابق لنظام ATS والتسجيل في الخدمات الإلكترونية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الكورسات التعليمية -->
+    <section class="section courses-section" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">طوّر مهاراتك</span>
+                <h2 class="section-title">الكورسات التعليمية</h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-badge">شائع</div>
+                    <div class="course-thumb">
+                        <img src="image/pngtree-architectural-plans-measured-by-caliper-on-a-white-background-with-3d-image_3670462.jpg" alt="كورس AutoCad">
+                    </div>
+                    <div class="course-body">
+                        <h3>كورس AutoCad والرسم الهندسي</h3>
+                        <p>تعلم الرسم الهندسي المعماري والإنشائي من الصفر حتى احتراف إعداد المخططات الكاملة.</p>
+                        <div class="course-meta">
+                            <span><i class="fa-regular fa-clock"></i> 4 أسابيع</span>
+                            <span><i class="fa-regular fa-user"></i> جميع المستويات</span>
+                        </div>
+                        <a href="#contact" class="btn btn-outline btn-block">اشترك الآن</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-badge">مميز</div>
+                    <div class="course-thumb">
+                        <img src="image/pngtree-d-render-of-a-website-builder-for-a-graphic-design-studio-image_3761809.jpg" alt="كورس الجرافيك">
+                    </div>
+                    <div class="course-body">
+                        <h3>كورس التصميم الجرافيكي الشامل</h3>
+                        <p>احتراف أدوات Photoshop وIllustrator لابتكار التصاميم وبناء معرض أعمال قوي.</p>
+                        <div class="course-meta">
+                            <span><i class="fa-regular fa-clock"></i> 6 أسابيع</span>
+                            <span><i class="fa-regular fa-user"></i> للمبتدئين</span>
+                        </div>
+                        <a href="#contact" class="btn btn-outline btn-block">اشترك الآن</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-badge">مطلوب</div>
+                    <div class="course-thumb">
+                        <img src="image/برنامج-كتابة-الرسائل-العلمية-2.jpg" alt="كورس كتابة الأبحاث">
+                    </div>
+                    <div class="course-body">
+                        <h3>احتراف تنسيق الرسائل العلمية</h3>
+                        <p>إتقان المهارات المتقدمة في MS Word لمعالجة الرسائل الأكاديمية وصياغة الفهارس والمراجع.</p>
+                        <div class="course-meta">
+                            <span><i class="fa-regular fa-clock"></i> أسبوعين</span>
+                            <span><i class="fa-regular fa-user"></i> طلاب دراسات عليا</span>
+                        </div>
+                        <a href="#contact" class="btn btn-outline btn-block">اشترك الآن</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر (Footer) -->
+    <footer class="main-footer" id="contact">
+        <div class="container footer-content">
+            <div class="footer-column brand-col">
+                <h3 class="footer-logo">GRAVO</h3>
+                <p>مركز متكامل يقدم أحدث خدمات التصميم الهندسي والجرافيكي، وكتابة وتنسيق الرسائل العلمية وفق أعلى المعايير.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://web.whatsapp.com/" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#page">الرئيسية</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#courses">الكورسات التعليمية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>التواصل المباشر</h4>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-phone"></i> 01275973124</li>
+                    <li><i class="fa-solid fa-phone"></i> 01063085855</li>
+                    <li><i class="fa-solid fa-location-dot"></i> مصر - المحلة الكبرى</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>جميع الحقوق محفوظة &copy; 2026 - <strong>GRAVO</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- سكربت التحكم بالتفاعل والتنقل -->
+    <script>
+        // Toggle Mobile Menu
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navbar = document.getElementById('navbar');
+
+        mobileToggle.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+            const icon = mobileToggle.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+
+        // Slider Logic
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevSlide');
+        const nextBtn = document.getElementById('nextSlide');
+        const sliderDots = document.getElementById('sliderDots');
+        let currentSlide = 0;
+        let slideInterval;
+
+        // Generate Dots
+        slides.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(index));
+            sliderDots.appendChild(dot);
+        });
+
+        const dots = document.querySelectorAll('.slider-dots .dot');
+
+        function updateSlide() {
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active');
+                dots[index].classList.remove('active');
+            });
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateSlide();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            updateSlide();
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateSlide();
+            resetTimer();
+        }
+
+        function resetTimer() {
+            clearInterval(slideInterval);
+            slideInterval = setInterval(nextSlide, 5000);
+        }
+
+        nextBtn.addEventListener('click', () => { nextSlide(); resetTimer(); });
+        prevBtn.addEventListener('click', () => { prevSlide(); resetTimer(); });
+
+        // Start Auto Slide
+        slideInterval = setInterval(nextSlide, 5000);
+    </script>
+</body>
+</html>
